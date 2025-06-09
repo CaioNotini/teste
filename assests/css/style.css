@@ -83,7 +83,6 @@ body {
   font-weight: 700;
   color: #992b25; /* mantém sua cor original */
   margin-bottom: 16px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
   line-height: 1.1;
   letter-spacing: 0.5px;
 }
