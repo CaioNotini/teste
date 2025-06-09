@@ -337,7 +337,7 @@ s .envelope:hover .heart-seal {
 }
 
 .close-btn:hover {
-  color: #e84393;
+  color: #992b25;
 }
 
 .letter-header {
@@ -348,7 +348,7 @@ s .envelope:hover .heart-seal {
 .letter-title {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
-  color: #d63384;
+  color: #992b25;
   margin-bottom: 10px;
 }
 
