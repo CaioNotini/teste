@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Um convite especial</title>
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="floating-hearts"></div>
+
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Nosso dia dos namorados</h1>
+
+        <div class="date">12 de Junho, 2025</div>
+      </div>
+
+      <div class="photo-section">
+        <div class="photo-container">
+          <div class="photo-frame">
+            <img
+              src="images/buca.jpg"
+              style="
+                width: 95%;
+                height: 95%;
+                object-fit: cover;
+                border-radius: 15px;
+              "
+            />
+          </div>
+          <div class="memory-text">
+            <h3>Para começar a noite</h3>
+            <p>
+              Nada melhor do que começar a noite com um fondue salgado! Queijo
+              derretido, pão crocante e tudo do que você mais gosta!
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-container">
+          <div class="photo-frame">
+            <img
+              src="images/biba.jpg"
+              style="
+                width: 95%;
+                height: 95%;
+                object-fit: cover;
+                border-radius: 15px;
+              "
+            />
+          </div>
+          <div class="memory-text">
+            <h3>Outra opção</h3>
+            <p>
+              Como um bom anfitrião, opções não faltam! Ao invés do fondue de
+              fondue de queijo, podemos comer um delicioso fondue de carne com
+              boas entradas para acompanhar.
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-container">
+          <div class="photo-frame">
+            <img
+              src="images/festa.jpg"
+              style="
+                width: 95%;
+                height: 95%;
+                object-fit: cover;
+                border-radius: 15px;
+              "
+            />
+          </div>
+          <div class="memory-text">
+            <h3>A melhor parte!</h3>
+            <p>
+              Para continuar nossa noite, nada melhor do que um fondue de
+              chocolate! Já que somos dois viciados em chocolate, hoje está
+              liberado comer sem dó.
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-container">
+          <div class="photo-frame">
+            <img
+              src="images/escovando destes.jpg"
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+              "
+            />
+          </div>
+          <div class="memory-text">
+            <h3>Acompanhamentos</h3>
+            <p>
+              Se quiser ainda, podemos acompanhar o nosso jantar com um
+              vinhozinho bem romantico, ou com algo mais sem alcool, só para não
+              ficarmos de boca seca O que importa mesmo é a sua companhia
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="letter-section">
+        <p class="instruction-title">Clique na carta! 💌</p>
+        <div class="envelope" onclick="openLetter()">
+          <div class="envelope-body">
+            <div class="envelope-flap"></div>
+            <div class="heart-seal">❤️</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="letter-content" id="letterContent">
+      <div class="letter-paper">
+        <span class="close-btn" onclick="closeLetter()">×</span>
+        <div class="letter-header">
+          <h2 class="letter-title">Oi mo</h2>
+        </div>
+        <div class="letter-text" id="letterText">
+          <p><strong>Meu amor,</strong></p>
+          <br />
+          <br />
+          <p>
+            Depois de eu te contar um pouco do que vamos fazer, quero falar um
+            pouco do que você é para mim. Amor, eu nem sei como começar a falar,
+            mas em tão pouco tempo a gente viveu tanta coisa que nem parece que
+            nos conhecemos há mais ou menos 6 meses e estamos juntos há 2 meses
+            (1 namorando).
+          </p>
+          <br />
+          <p>
+            Viver os dias ao seu lado vem me tornando uma pessoa melhor, e a
+            cada dia que passa quero crescer e aprender com você. Obrigado por
+            todos os momentos juntos, que apesar de tão pouco tempo, foram muito
+            especiais e me fizeram muito feliz. Todas as saídas, os jantares, os
+            filmes que eu dormi, as noites de sono, os mais diferentes
+            encontros, e todas as nossas conversas vêm me tornando um homem
+            melhor e um homem que quer viver ainda mais momentos ao seu lado.
+          </p>
+          <br />
+          <p>
+            Não vou me estender porque isso é só um convite, mas mozinho, eu te
+            amo tanto que te dedicaria todas as músicas do Djavan e você não tem
+            noção do quão especial você é na minha vida.
+          </p>
+          <p>
+            Pra finalizar, responda esse formulário pra mim, para eu preparar
+            ainda mais nossa noite!
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSde6auvovwGyC6WyEwgVsfBd9Vvltc4TDR29NscW0u3idgahw/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: none; color: #b85c5c"
+            >
+              Clique aqui para acessar o formulário
+            </a>
+          </p>
+          <br />
+          <p>Obrigado por tudo,</p>
+          <p><em>Caio ❤️🤏 </em></p>
+        </div>
+      </div>
+    </div>
+    <script src="assests/js/script.js"></script>
+  </body>
+</html>
